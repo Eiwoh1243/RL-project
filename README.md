@@ -63,7 +63,13 @@ This is useful so that VSCode doesn't automatically try to detect your personal/
 1. Ensure `SOURCE CONTROL -> ... -> Repositories` is ticked
 2. `Right Click`/`Mouse2` the repository that appears, and press `Close Repository`
 
+### VSCode Workspaces 
+As means to having both your personal/parent, and git repo folders present and non-conflicting.
+1. Do `File -> Add Folder to Workspace...` twice, one for the personal/parent folder, and the other for your git repo folder
+2. Do `File -> Save Workspace As...`, and save it somewhere reasonable
+3. Do `File -> Open Workspace from File...`, and select the newly created workspace
+4. Ensure `RL-project` is selected in the `REPOSITORIES` drop-down menu, in `Source Control`
+5. Enjoy being able to work with a workspace, that allows you to have both your personal/parent and git repo folder present
+
 ## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
-
-pls work
