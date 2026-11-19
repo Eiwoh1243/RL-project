@@ -41,3 +41,6 @@ Commiting changes is only done on your local device, no changes are made on the 
 
 ### Pulling from Repository
 1. Press the `Pull` button in the `GRAPH` drop-down menu
+
+## Notes
+It is best to have another member review the **Pull Request**, before merging with the **main** branch.
