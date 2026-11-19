@@ -18,9 +18,12 @@
 5. Open the repository folder in VSCode
 
 ## How to use the repository
+Go to `Source Control` or `Ctrl+Shift+G`
+
 ### Creating Branches
 1. Press `... -> Branch -> Create Branch...` in the `CHANGES` dropdown menu
 2. Enter a name for your branch
+3. `Publish Branch` in the `GRAPH` drop-down menu, to publish the branch onto the repo (doesn't commit any changes)
 
 ### Switching between Branches
 Any changes made to a branch (on your local device) will remain, even if they don't appear once the current working branch is changed to a different one.
@@ -28,5 +31,13 @@ Any changes made to a branch (on your local device) will remain, even if they do
 2. Type or Select the branch you want to switch to
 
 ### Commiting Changes
-Commiting changes doesn't change the 
-1. Go to `Source Control` or `Ctrl+Shift+G`
+Commiting changes is only done on your local device, no changes are made on the repository until you Push the changes.
+1. The big blue button that says `Commit`
+2. Write a message and save with `Ctrl+S`
+
+### Pushing Changes
+1. Open the drop-down menu next to `Commit`, and press `Commit & Push`; or press the `Push` button in the `GRAPH` drop-down menu
+2. Write a message and save with `Ctrl+S`
+
+### Pulling from Repository
+1. Press the `Pull` button in the `GRAPH` drop-down menu
