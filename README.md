@@ -48,11 +48,15 @@ Staged changes are commited when `Commit` is pressed, unstaged changes do not.
 1. `Right Click`/`Mouse2` a file, and press `Stage Changes` to stage changes. Or `Right Click`/`Mouse2` the `Changes` drop-down, and press `Stage All Changes` to stage all changes.
 2. `Right Click`/`Mouse2` a file, and press `Unstage Changes` to unstage changes. Or `Right Click`/`Mouse2` the `Changes` drop-down, and press `Unstage All Changes` to unstage all changes.
  
-### Uncommiting (and Discarding) Changes via Terminal
+### Uncommiting Changes via Terminal
 1. To uncommit all changes: `git reset HEAD~1`
 2. To uncommit all changes, and stages them instead: `git reset --soft HEAD~1`
 3. To uncommit all changes, and discard them: `git reset --hard HEAD~1`
 4. Roll back to older commit, viewed by `git log --oneline` (e.g. `01df11e updating readme file`); using `git reset --hard 01df11e`
+5. If the commit has been done to the repo, then run `git revert HEAD`, and re-commit; the staged files contain the reverted versions of the commited changes, so commiting them undos the changes
+
+### Discarding Changes
+1. `Right Click`/`Mouse2` a file, and press `Discard Changes`. Or `Right Click`/`Mouse2` the `Changes` drop-down, and press `Discard All Changes` to discard all changes.
 
 ## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
