@@ -58,6 +58,11 @@ Staged changes are commited when `Commit` is pressed, unstaged changes do not.
 ### Discarding Changes
 1. `Right Click`/`Mouse2` a file, and press `Discard Changes`. Or `Right Click`/`Mouse2` the `Changes` drop-down, and press `Discard All Changes` to discard all changes.
 
+### Close Repository
+This is useful so that VSCode doesn't automatically try to detect your personal/parent directory as a repository.
+1. Ensure `SOURCE CONTROL -> ... -> Repositories` is ticked
+2. `Right Click`/`Mouse2` the repository that appears, and press `Close Repository`
+
 ## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
 
