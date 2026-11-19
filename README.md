@@ -66,4 +66,4 @@ This is useful so that VSCode doesn't automatically try to detect your personal/
 ## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
 
-If you are working on the project's directory, but have VSCode opened to a different parent directory (e.g. `/Coursework/RL-project/...` instead of `/RL-project/...`), **DO NOT COMMIT ANY CHANGES** until you have changed your working directory. Doing so will commit all other folders and files in the parent directory to the branch.
+pls word
