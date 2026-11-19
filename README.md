@@ -32,8 +32,9 @@ Any changes made to a branch (on your local device) will remain, even if they do
 
 ### Commiting Changes
 Commiting changes is only done on your local device, no changes are made on the repository until you Push the changes.
-1. The big blue button that says `Commit`
+1. The button that says `Commit`; or open the drop-down menu and press `Commit` (if it isn't the default)
 2. Write a message and save with `Ctrl+S`
+3. Cancel by not writing any message
 
 ### Pushing Changes
 1. Open the drop-down menu next to `Commit`, and press `Commit & Push`; or press the `Push` button in the `GRAPH` drop-down menu
@@ -42,5 +43,5 @@ Commiting changes is only done on your local device, no changes are made on the 
 ### Pulling from Repository
 1. Press the `Pull` button in the `GRAPH` drop-down menu
 
-## Notes
+## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
