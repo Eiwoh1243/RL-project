@@ -43,5 +43,18 @@ Commiting changes is only done on your local device, no changes are made on the 
 ### Pulling from Repository
 1. Press the `Pull` button in the `GRAPH` drop-down menu
 
+### Staging
+Staged changes are commited when `Commit` is pressed, unstaged changes do not.
+1. `Right Click`/`Mouse2` a file, and press `Stage Changes` to stage changes. Or `Right Click`/`Mouse2` the `Changes` drop-down, and press `Stage All Changes` to stage all changes.
+2. `Right Click`/`Mouse2` a file, and press `Unstage Changes` to unstage changes. Or `Right Click`/`Mouse2` the `Changes` drop-down, and press `Unstage All Changes` to unstage all changes.
+ 
+### Uncommiting (and Discarding) Changes via Terminal
+1. To uncommit all changes: `git reset HEAD~1`
+2. To uncommit all changes, and stages them instead: `git reset --soft HEAD~1`
+3. To uncommit all changes, and discard them: `git reset --hard HEAD~1`
+4. Roll back to older commit, viewed by `git log --oneline` (e.g. `01df11e updating readme file`); using `git reset --hard 01df11e`
+
 ## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
+
+If you are working on the project's directory, but have VSCode opened to a different parent directory (e.g. `/Coursework/RL-project/...` instead of `/RL-project/...`), **DO NOT COMMIT ANY CHANGES** until you have changed your working directory. Doing so will commit all other folders and files in the parent directory to the branch.
