@@ -73,3 +73,9 @@ As means to having both your personal/parent, and git repo folders present and n
 
 ## Notice
 It is best to have another member review the **Pull Request**, before merging with the **main** branch.
+
+## Create a virtual environment 
+If you want a indepedent environment to other project in your PC create the virtual enviroment. 
+1. Put `python -m venv .venv`  in the terminal 
+2. Activate it by `.\.venv\Scripts\Activate.ps1` in the terminal
+3. Deactivate iy by `deactivate` in the terminal
