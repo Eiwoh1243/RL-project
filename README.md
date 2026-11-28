@@ -151,6 +151,7 @@
 > 1. Press the `...` at the top-right
 > 2. Press the `Settings` button
 > 3. Modify settings regarding `Status`, `Priority`, etc.
+> 4. To add people onto the project, go to `Manage Access`, and add other people onto the project
 
 <br><br>
 
